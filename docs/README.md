@@ -20,6 +20,10 @@ navigation, full-text search, source links and light/dark themes.
 The implementation targets PostgreSQL through postgres.js. The inventories
 retain all upstream capabilities, including features outside that scope.
 
+## Drizzle Kit
+
+- [Slim drizzle-kit distribution](../packages/drizzle-kit/README.md)
+
 ## Env
 
 - [Current API, nested presets and client access](../packages/env/README.md)
