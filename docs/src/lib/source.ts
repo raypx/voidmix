@@ -18,6 +18,7 @@ export const docs = defineDocs({
       "packages/devkit/README.md",
       "packages/drizzle/README.md",
       "packages/drizzle/NOTICE.md",
+      "packages/drizzle-kit/README.md",
       "packages/env/README.md",
       "packages/intl/README.md",
       "packages/tsconfig/README.md",

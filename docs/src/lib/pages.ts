@@ -44,6 +44,12 @@ export const documentationPages = [
     description: "Pinned source revisions, adaptation notices and retained upstream licenses.",
   },
   {
+    slug: "drizzle-kit/index",
+    sourcePath: "packages/drizzle-kit/README.md",
+    title: "Drizzle Kit",
+    description: "drizzle-kit's CLI and defineConfig without the unused prebuilt bundles.",
+  },
+  {
     slug: "env/index",
     sourcePath: "packages/env/README.md",
     title: "Env",
@@ -93,13 +99,14 @@ export const documentationPages = [
 export const navigationMetadata = {
   "meta.json": {
     title: "Voidmix",
-    pages: ["index", "devkit", "drizzle", "env", "intl", "tsconfig", "development"],
+    pages: ["index", "devkit", "drizzle", "drizzle-kit", "env", "intl", "tsconfig", "development"],
   },
   "drizzle/meta.json": {
     title: "Drizzle",
     pages: ["index", "drizzle-plus", "better-drizzle", "merge-plan", "provenance"],
   },
   "devkit/meta.json": { title: "Devkit", pages: ["index"] },
+  "drizzle-kit/meta.json": { title: "Drizzle Kit", pages: ["index"] },
   "env/meta.json": { title: "Env", pages: ["index"] },
   "intl/meta.json": { title: "Intl", pages: ["index", "migration"] },
   "tsconfig/meta.json": { title: "TSConfig", pages: ["index"] },

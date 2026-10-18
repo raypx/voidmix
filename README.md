@@ -5,13 +5,14 @@ repository follows the multi-package structure of
 [TanStack Config](https://github.com/TanStack/config), with an independent version
 and release history for every public package.
 
-| Package                                          | Purpose                                                                                 |
-| ------------------------------------------------ | --------------------------------------------------------------------------------------- |
-| [@voidmix/devkit](packages/devkit/README.md)     | Workspace boundaries, toolchain pins, static catalogs, artifact probes and task helpers |
-| [@voidmix/drizzle](packages/drizzle/README.md)   | PostgreSQL extensions for postgres.js, JSON helpers and query diagnostics               |
-| [@voidmix/env](packages/env/README.md)           | Typed environment validation, nested presets, defaults and guarded client access        |
-| [@voidmix/intl](packages/intl/README.md)         | Configurable locale negotiation, ICU translation, Intl formatting and React providers   |
-| [@voidmix/tsconfig](packages/tsconfig/README.md) | Strict TypeScript presets for ESM libraries, browser applications and Node runtimes     |
+| Package                                                | Purpose                                                                                 |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| [@voidmix/devkit](packages/devkit/README.md)           | Workspace boundaries, toolchain pins, static catalogs, artifact probes and task helpers |
+| [@voidmix/drizzle](packages/drizzle/README.md)         | PostgreSQL extensions for postgres.js, JSON helpers and query diagnostics               |
+| [@voidmix/drizzle-kit](packages/drizzle-kit/README.md) | drizzle-kit's CLI and `defineConfig` without the unused prebuilt bundles                |
+| [@voidmix/env](packages/env/README.md)                 | Typed environment validation, nested presets, defaults and guarded client access        |
+| [@voidmix/intl](packages/intl/README.md)               | Configurable locale negotiation, ICU translation, Intl formatting and React providers   |
+| [@voidmix/tsconfig](packages/tsconfig/README.md)       | Strict TypeScript presets for ESM libraries, browser applications and Node runtimes     |
 
 The Drizzle package includes a complete upstream capability inventory and a
 staged merge plan for drizzle-plus and better-drizzle. Its documented shipping
