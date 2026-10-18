@@ -44,7 +44,8 @@ async function generate(bin: string): Promise<string[]> {
   return sql;
 }
 
-describe("extracted drizzle-kit", () => {
+// Several cases start the 7 MB CLI bundle, which is slow while Turbo runs other suites.
+describe("extracted drizzle-kit", { timeout: 60_000 }, () => {
   it("keeps the CLI, defineConfig and their declaration chunks only", () => {
     expect(files).toContain("bin.cjs");
     for (const entry of ["index.js", "index.mjs", "index.d.ts", "index.d.mts"])
