@@ -1,0 +1,14 @@
+packages/drizzle-kit/src/extract.test.ts
+  h_2f444dd408c3f2 47-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3003f3b0deb14eb8ca1fcc88e0123cd01e984a0b",
+  "prompts": {},
+  "humans": {
+    "h_2f444dd408c3f2": {
+      "author": "heixing <heixing@xiaohongshu.com>"
+    }
+  }
+}
