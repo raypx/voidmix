@@ -1,0 +1,44 @@
+README.md
+  h_f0766e80fd3864 8-15
+bun.lock
+  h_f0766e80fd3864 70-88,228,230,232,234,236,238,240,242,244,246,248,250,252,254,256,258,260,262,264,266,268,270,272,274,276,278-280,314-315,772-773,972-973,990,1046-1047,1110-1111,1376-1377,1580-1581,1592-1593,1622-1673,1675-1726
+docs/README.md
+  h_f0766e80fd3864 23-26
+docs/src/lib/pages.ts
+  h_f0766e80fd3864 46-51,102,109
+docs/src/lib/source.ts
+  h_f0766e80fd3864 21
+packages/drizzle-kit/AGENTS.md
+  h_f0766e80fd3864 1-32
+packages/drizzle-kit/CHANGELOG.md
+  h_f0766e80fd3864 1-9
+packages/drizzle-kit/LICENSE
+  h_f0766e80fd3864 1-24
+packages/drizzle-kit/README.md
+  h_f0766e80fd3864 1-51
+packages/drizzle-kit/fixtures/schema/drizzle.config.ts
+  h_f0766e80fd3864 1-5
+packages/drizzle-kit/fixtures/schema/schema.ts
+  h_f0766e80fd3864 1-13
+packages/drizzle-kit/package.json
+  h_f0766e80fd3864 1-63
+packages/drizzle-kit/src/extract.test.ts
+  h_f0766e80fd3864 1-112
+packages/drizzle-kit/src/extract.ts
+  h_f0766e80fd3864 1-67
+packages/drizzle-kit/tsconfig.json
+  h_f0766e80fd3864 1-4
+packages/drizzle-kit/vitest.config.ts
+  h_f0766e80fd3864 1-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4dbc02b32460d489c08bb901cef0f3e220c2be3c",
+  "prompts": {},
+  "humans": {
+    "h_f0766e80fd3864": {
+      "author": "Zack <heyloyep@gmail.com>"
+    }
+  }
+}
